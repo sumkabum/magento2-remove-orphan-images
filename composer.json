@@ -1,0 +1,17 @@
+{
+    "name": "sumkabum/magento2-rempve-orphan-images",
+    "authors": [
+        {
+            "name": "sumkabum",
+            "email": "sumkabum@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/product-community-edition" : ">=2"
+    },
+    "autoload": {
+        "psr-4": { "Sumkabum\\Magento2ProductImport\\": "" },
+        "files": [ "registration.php" ]
+    },
+    "type": "magento2-module"
+}
